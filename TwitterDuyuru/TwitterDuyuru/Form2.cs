@@ -19,7 +19,7 @@ namespace TwitterDuyuru
         public Form2()
         {
             InitializeComponent();
-            Auth.SetUserCredentials("SPi1R25BOz2HIZmQdpDAu8l3x", "IeQ2X0wyV5uDWsxcHyx2hvkTY9hcXMYBDPyr4alevLszzZE6fZ", "1019708295043534850-ZNzdZQxFJFXvrrhiiRfFAihXv8rDRz", "kmYYP876OjA9MoBGO8J04oY4iXuNc38lutFAU0OKGy8dn");
+            Auth.SetUserCredentials("", "", "", "");//Twitter Token Yazılacak
 
         }
         SqlConnection baglanti = new SqlConnection("Data Source=SAHAN\\SQLEXPRESS;Initial Catalog=Twitter;Integrated Security=True");
